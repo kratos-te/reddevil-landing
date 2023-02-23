@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
 import JoinUs from '../JoinUs'
+import Link from 'next/link'
 
 const teamMembers = [
   {
@@ -131,12 +132,13 @@ const Team = () => {
               </div>
 
               <div className="flex lg:w-[41%] h-[100%] items-center justify-center md: w-[50%]">
-                <button
-                  onClick={() => setShow(true)}
+              <Link
+                href='https://discord.gg/qvvCd39zXA'
+                  
                   className="text-[18px] border-none text-center text-main w-[34.6%] h-[71.89px] rounded-[12px] bg-red-700 transition-all duration-500 font-bold py-5 font-[FeastOfFlesh] tracking-widest"
                 >
                   Our Discord
-                </button>
+                </Link>
                 <JoinUs open={show} closeJoinUs={closeJoinUs}></JoinUs>
               </div>
             </div>
