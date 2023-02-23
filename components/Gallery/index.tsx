@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { motion } from 'framer-motion'
 import WavyText from '../../global_componenets/WavyText'
 
@@ -19,7 +20,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm mt-4 border-indigo-700">
-             <img src="/images/4.jpg" />
+             <img src="/images/4.jpg" alt="" />
             </div>
           </motion.div>
 
@@ -33,7 +34,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/5.jpg" />
+             <img src="/images/5.jpg" alt="" />
             </div>
           </motion.div>
 
@@ -47,7 +48,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/8.jpg" />
+             <img src="/images/8.jpg" alt="" />
             </div>
           </motion.div>
 
@@ -61,7 +62,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/9.jpg" />
+             <img src="/images/9.jpg" alt="" />
             </div>
           </motion.div>
 
@@ -75,7 +76,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
            <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/15.jpg" />
+             <img src="/images/15.jpg" alt="" />
             </div>
           </motion.div>
 
@@ -89,7 +90,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/792.jpg" />
+             <img src="/images/792.jpg" alt="" />
             </div>
           </motion.div>
           <motion.div
@@ -102,7 +103,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/32.jpg" />
+             <img src="/images/32.jpg" alt="" />
             </div>
           </motion.div>
           <motion.div
@@ -115,7 +116,7 @@ export default function Gallery() {
             whileHover={{ opacity: 1, translateY: -15, scale: 1.2, zIndex: 1 }}
           >
             <div className="box-border border-4 rounded-lg bg-gray-100 shadow-sm border-indigo-700">
-             <img src="/images/39.jpg" />
+             <img src="/images/39.jpg" alt="" />
             </div>
           </motion.div>
         </div>

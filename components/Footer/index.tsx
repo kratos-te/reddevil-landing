@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { motion } from 'framer-motion'
 
@@ -12,7 +13,7 @@ export default function Footer() {
         <div className="mx-24 mt-32 lg:flex space-x-4 border-b-2 border-grey-500 pb-24 ">
           <div className="lg:w-1/2 lg:pr-32 md:w-full mb-12">
             <div className="flex items-center">
-              <img src="/logo.svg" className="w-12 " />
+              <img src="/logo.svg" className="w-12 " alt="" />
               <p className="text-2xl leading-6 font-semibold ml-6">Vanta Fox</p>
             </div>
             <div className="mt-4">

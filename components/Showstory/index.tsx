@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion'
 import WavyText from '../../global_componenets/WavyText'
@@ -50,7 +51,7 @@ The meeting between the girl and Red Devil was set up in a secure room, with gua
               
                 </h1>
           </div>
-          <img src="/bright-bg.png" className="" />
+          <img src="/bright-bg.png" className="" alt=""/>
      
     </div>
   )
