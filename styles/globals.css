@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
-
+/* 
 @font-face {
   font-family: "FeastOfFlesh";
   src: url(./FEASFBI_.TTF) format("truetype");
   src: url(./FEASFBRG.TTF) format("truetype");
+} */
+
+@font-face {
+  font-family: "FeastOfFlesh";
+  src: url(./feast-of-flesh-bb.regular.otf) format("opentype");
 }
 
 @tailwind base;
