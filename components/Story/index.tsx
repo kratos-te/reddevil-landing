@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Story() {
   return (
-    <div className="lg:flex flex-col bg-gradient-to-b from-black to-red-800 bg-[url('/bright-bg.png')]">
+    <div className="lg:flex flex-col bg-gradient-to-b from-black to-red-800 ">
       <div className="flex flex-wrap px-14  ">
         
         <div className="lg:flex justify-between my-24 pt-24">
