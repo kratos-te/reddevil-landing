@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
 @tailwind base;
 /* *{
  @apply font-main
@@ -6,10 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: "FeastOfFlesh";
+  src: url("..//font/FEASFBI_.TTF");
+  src: url("../public//font//FEASFBRG.TTF") format("sans-serif");
+} */
 @font-face {
-    font-family: "FeastOfFlesh";
-    src: url("../public/font/FEASFBI_.TTF");
-    src: url("../public//font//FEASFBRG.TTF") format("sans-serif"),
-    /* url("../../fonts/TT\ Lakes\ Black.woff") format("woff"),
-     url("../../fonts/TT\ Lakes\ Black.ttf") format("truetype"); */
-    }
+  font-family: "FeastOfFlesh";
+  src: url(../pages/assets/FEASFBI_.TTF)  format('truetype');
+  src: url(../pages/assets/FEASFBRG.TTF) format('truetype');
+}
