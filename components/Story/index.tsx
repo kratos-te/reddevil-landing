@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { motion } from 'framer-motion'
 import WavyText from '../../global_componenets/WavyText'
 import Link from 'next/link'
 
 export default function Story() {
   return (
-    <div className="lg:flex flex-col bg-gradient-to-b from-black to-red-800 bg-[url('/bright-bg.png')]">
+    <div className="lg:flex flex-col bg-gradient-to-b from-black to-red-800 ">
       <div className="flex flex-wrap px-14  ">
         
         <div className="lg:flex justify-between my-24 pt-24">
@@ -37,7 +39,7 @@ export default function Story() {
                 </h1>
                 </div>
             <Link
-              href="/"
+              href="/story"
               className="text-[18px] text-center text-white w-[28.8%] rounded-[12px] bg-black transition-all duration-500 font-bold py-4 mb-8 font-[FeastOfFlesh] tracking-widest"
             >
               Read Story
