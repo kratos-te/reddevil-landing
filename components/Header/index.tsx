@@ -47,8 +47,11 @@ export default function Header() {
             style={{scrollBehavior:'smooth'}}
             >
               Mint
+          </Link>
+          <Link
+          href="https://twitter.com/Red_Devils_Nft">
+            <TwitterIcon className="text-white" />
             </Link>
-            <TwitterIcon className="text-white"/>
             {/* <Link
               href="/categories"
               className="text-2xl text-white transition-all duration-500 mx-5"
