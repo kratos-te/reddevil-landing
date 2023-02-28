@@ -44,8 +44,10 @@ const Team = () => {
   return (
     <>
       {domLoaded && (
-        <div className="flex flex-col items-center justify-center  px-10 bg-[url('/back.jpg')] bg-cover" id="team">
-      
+        <div
+          className="flex flex-col items-center justify-center  px-10 bg-[url('/back.jpg')] bg-cover"
+          id="team"
+        >
           <motion.div
             initial={{ opacity: 0, translateY: 50 }}
             whileInView={{ opacity: 1, translateY: 0 }}
@@ -53,7 +55,7 @@ const Team = () => {
             className="flex flex-col container mt-32 sm:mt-10"
           >
             <div className="flex items-center justify-between sm:mt-10">
-              <h1 className="lg:text-4xl font-extrabold text-red-800 text-left md: text-[28px] font-[900] font-[FeastOfFlesh] tracking-widest">
+              <h1 className="lg:text-4xl font-extrabold text-red-800 text-left md: text-[28px] font-[900] font-[Rancho] tracking-widest">
                 Meet Our Team
               </h1>
               <div className="flex items-center justify-center">
@@ -69,23 +71,23 @@ const Team = () => {
               modules={[Navigation]}
               spaceBetween={30}
               slidesPerView={1}
-              style={{ overflow: 'hidden' }}
+              style={{ overflow: "hidden" }}
               className="w-full mt-6"
               loop
               navigation={{
-                nextEl: '.prev-btn',
-                prevEl: '.next-btn',
+                nextEl: ".prev-btn",
+                prevEl: ".next-btn"
               }}
               breakpoints={{
                 640: {
-                  slidesPerView: 2,
+                  slidesPerView: 2
                 },
                 1280: {
-                  slidesPerView: 3,
+                  slidesPerView: 3
                 },
                 1536: {
-                  slidesPerView: 4,
-                },
+                  slidesPerView: 4
+                }
               }}
             >
               {teamMembers.map((member, j) => (
@@ -120,34 +122,34 @@ const Team = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            </motion.div>
-            <div className="lg:flex flex-row items-center w-[100%]  justify-between overflow-x-hidden pb-12 ">
-  
-              <div className=" lg:w-[59%] h-[100%] md:w-full md:pb-12 pr-[8.75%] pb-12">
-                <div className="text-[46px] h-1/2 text-white pt-[30px] pl-[8.75%] font-[FeastOfFlesh] tracking-widest">
+          </motion.div>
+          <div className="lg:flex flex-row items-center w-[100%]  justify-between overflow-x-hidden pb-12 ">
+            <div className=" lg:w-[59%] h-[100%] md:w-full md:pb-12 pr-[8.75%] pb-12">
+              <div className="text-[46px] h-1/2 text-white pt-[30px] pl-[8.75%] font-[Rancho] tracking-widest">
                 About Us
-                </div>
-                <div className="text-[20px] h-1/2 text-white pt-[20px] pl-[8.75%]">
-                Red Devils is a company focusing on Crypto and NFT. We raise funds from investors and launch NFT collections. We create long-term value products, special tools, alpha calls and many more.
-                </div>
               </div>
-
-              <div className="flex lg:w-[41%] h-[100%] items-center justify-center md: w-[50%]">
-              <Link
-                href='https://discord.gg/qvvCd39zXA'
-                  
-                  className="text-[18px] border-none text-center text-main w-[34.6%] h-[71.89px] rounded-[12px] bg-red-700 transition-all duration-500 font-bold py-5 font-[FeastOfFlesh] tracking-widest"
-                >
-                  Our Discord
-                </Link>
-                <JoinUs open={show} closeJoinUs={closeJoinUs}></JoinUs>
+              <div className="text-[20px] h-1/2 text-white pt-[20px] pl-[8.75%]">
+                Red Devils is a company focusing on Crypto and NFT. We raise
+                funds from investors and launch NFT collections. We create
+                long-term value products, special tools, alpha calls and many
+                more.
               </div>
             </div>
-       
+
+            <div className="flex lg:w-[41%] h-[100%] items-center justify-center md: w-[50%]">
+              <Link
+                href="https://discord.gg/qvvCd39zXA"
+                className="text-[18px] border-none text-center text-white w-[34.6%] h-[71.89px] rounded-[12px] bg-red-700 transition-all duration-500 font-bold py-5 font-[Rancho] tracking-widest"
+              >
+                Our Discord
+              </Link>
+              <JoinUs open={show} closeJoinUs={closeJoinUs}></JoinUs>
+            </div>
+          </div>
         </div>
       )}
     </>
-  )
+  );
 }
 
 export default Team

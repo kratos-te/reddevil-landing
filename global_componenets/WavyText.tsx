@@ -52,7 +52,7 @@ const WavyText: FC<Props> = ({
       variants={container}
       initial="hidden"
       whileInView="visible"
-      className="font-[FeastOfFlesh] tracking-widest text-red-800"
+      className="font-[Rancho] tracking-widest text-red-800"
       {...props}
     >
       {letters.map((letter, index) => (

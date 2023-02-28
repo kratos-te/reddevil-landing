@@ -12,7 +12,7 @@ export default function BrowseCategories() {
         className="flex flex-col items-center pl-[8.75%] w-[50%] h-[100%]"
       >
         <div className="flex flex-col">
-          <h1 className="text-[65px] pt-[10%] pb-[3.5%] font-[FeastOfFlesh] tracking-widest text-red-500">
+          <h1 className="text-[65px] pt-[10%] pb-[3.5%] font-[Rancho] tracking-widest text-red-500">
             Coming Soon...{" "}
           </h1>
           <Link
