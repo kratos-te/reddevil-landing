@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link'
-import { motion } from 'framer-motion'
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Landing() {
   return (
-    <div className="flex items-center  justify-between  bg-[url('/landing.jpg')] bg-cover h-1/3">
+    <div className="flex items-center justify-between bg-[url('/landing.jpg')] bg-cover h-1/3">
       <div className="lg:flex justify-between my-24 pt-24">
         <motion.div
           initial={{ opacity: 0, translateX: -20 }}
