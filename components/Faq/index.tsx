@@ -1,16 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
-import WavyText from '../../global_componenets/WavyText'
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import WavyText from "../../global_componenets/WavyText";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function Faq() {
-
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
@@ -37,15 +36,15 @@ export default function Faq() {
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
                 HOW CAN I JOIN?
-              </Typography>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
                 You need to join our Discord server. But note that millions of
                 members are fighting to get access to Red Devils NFTs. Hurry up!
-              </Typography>
+              </p>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -57,17 +56,14 @@ export default function Faq() {
               aria-controls="panel2bh-content"
               id="panel2bh-header"
             >
-              <Typography
-                sx={{ flexShrink: 0 }}
-                className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl"
-              >
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
                 HOW MANY DEVILS WILL FIGHT TO GET THE GRAVEYARD?
-              </Typography>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
                 1000, pro
-              </Typography>
+              </p>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -79,17 +75,14 @@ export default function Faq() {
               aria-controls="panel3bh-content"
               id="panel3bh-header"
             >
-              <Typography
-                sx={{ flexShrink: 0 }}
-                className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl"
-              >
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
                 ON WHAT BLOCKCHAIN IS RED DEVIL RUN?
-              </Typography>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
                 It’s Solana.
-              </Typography>
+              </p>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -101,17 +94,14 @@ export default function Faq() {
               aria-controls="panel4bh-content"
               id="panel4bh-header"
             >
-              <Typography
-                sx={{ flexShrink: 0 }}
-                className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl"
-              >
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
                 WHAT IS THE UTILITY OF THE NFTS?
-              </Typography>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
                 You can read it above, pro!
-              </Typography>
+              </p>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -123,17 +113,14 @@ export default function Faq() {
               aria-controls="panel5bh-content"
               id="panel5bh-header"
             >
-              <Typography
-                sx={{ flexShrink: 0 }}
-                className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl"
-              >
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-2xl">
                 OH, MY GOSH, I AM SO EXCITED TO HAVE AN RED DEVILS NFT!!
-              </Typography>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
+              <p className="font-[Rancho] tracking-widest text-red-900 font-bold text-xl">
                 Of course, we know. Everybody is.
-              </Typography>
+              </p>
             </AccordionDetails>
           </Accordion>
         </div>

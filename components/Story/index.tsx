@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import { motion } from 'framer-motion'
-import WavyText from '../../global_componenets/WavyText'
-import Link from 'next/link'
+import { motion } from "framer-motion";
+import WavyText from "../../global_componenets/WavyText";
+import Link from "next/link";
 
 export default function Story() {
   return (
@@ -73,7 +73,7 @@ export default function Story() {
             </div>
           </motion.div>
 
-          <div className=" flex-col w-full visible md:invisible">
+          <div className=" flex-col w-full ">
             <motion.div
               initial={{ opacity: 0, translateX: 20 }}
               whileInView={{ opacity: 1, translateX: 0 }}
