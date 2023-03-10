@@ -1,45 +1,44 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from 'react'
-import { motion } from 'framer-motion'
-import { Navigation } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css'
-import JoinUs from '../JoinUs'
-import Link from 'next/link'
+import "swiper/css";
+import JoinUs from "../JoinUs";
+import Link from "next/link";
 
 const teamMembers = [
   {
-    avatar: 'images/990.jpg',
-    name: 'Marco',
-    role: 'Founder',
+    avatar: "images/990.jpg",
+    name: "Marco",
+    role: "Founder"
   },
   {
-    avatar: 'images/972.jpg',
-    name: 'Nik',
-    role: 'Head Manager',
+    avatar: "images/972.jpg",
+    name: "Nik",
+    role: "Head Manager"
   },
   {
-    avatar: 'images/835.jpg',
-    name: 'Arjun',
-    role: 'CMO',
+    avatar: "images/835.jpg",
+    name: "Arjun",
+    role: "CMO"
   },
   {
-    avatar: 'images/810.jpg',
-    name: 'Jesulayomi',
-    role: 'Artist',
-  },
-]
+    avatar: "images/810.jpg",
+    name: "Jesulayomi",
+    role: "Artist"
+  }
+];
 
 const Team = () => {
-  const [domLoaded, setDomLoaded] = useState(false)
-  const [show, setShow] = useState<boolean>(false)
-  const closeJoinUs = () => setShow(false)
-
+  const [domLoaded, setDomLoaded] = useState(false);
+  const [show, setShow] = useState<boolean>(false);
+  const closeJoinUs = () => setShow(false);
 
   useEffect(() => {
-    setDomLoaded(true)
-  }, [])
+    setDomLoaded(true);
+  }, []);
 
   return (
     <>
@@ -138,7 +137,7 @@ const Team = () => {
 
             <div className="flex lg:w-[41%] h-[100%] items-center justify-center md: w-[50%]">
               <Link
-                href="https://discord.gg/qvvCd39zXA"
+                href="https://discord.gg/reddevils"
                 className="text-[18px] border-none text-center text-white w-[34.6%] h-[71.89px] rounded-[12px] bg-red-700 transition-all duration-500 font-bold py-5 font-[Rancho] tracking-widest"
               >
                 Our Discord
@@ -150,6 +149,6 @@ const Team = () => {
       )}
     </>
   );
-}
+};
 
-export default Team
+export default Team;
