@@ -10,7 +10,7 @@ export default function Showstory() {
         <WavyText text="Chapter 1: The Rise of Red Devil" />
       </div>
       <div className="grid justify-items-center px-12 py-24 ">
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           The city was in chaos. Buildings crumbled to the ground, and people
           ran for their lives as Red Devil, the notorious villain, wreaked havoc
           in the streets. He was a formidable foe, with powers beyond
@@ -19,7 +19,7 @@ export default function Showstory() {
           them to destroy everything in his path.{" "}
         </h1>
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           No one knew where Red Devil had come from, or what had driven him to
           such madness. Some said he was a demon from another realm, summoned by
           dark magic. Others said he was a victim of a cruel experiment gone
@@ -27,7 +27,7 @@ export default function Showstory() {
           danger to society.
         </h1>{" "}
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           The police had tried to stop him, but their weapons were useless
           against his fiery power. The military had been called in, but even
           they were no match for Red Devil. It seemed as though nothing could
@@ -40,14 +40,14 @@ export default function Showstory() {
           continued on his destructive path.
         </h1>{" "}
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           That moment of hesitation was all it took for the police to launch a
           surprise attack. They fired a barrage of bullets at Red Devil, hoping
           to catch him off guard. It was a risky move, but it paid off. Red
           Devil was hit, and he fell to the ground, weakened...
         </h1>
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           The police wasted no time in apprehending him, and they brought him to
           a maximum-security prison. There, he was kept under constant
           surveillance, his powers neutralized by special restraints. The city
@@ -60,7 +60,7 @@ export default function Showstory() {
           his behavior.
         </h1>
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           What she found surprised her. Red Devil had not always been a villain.
           In fact, he had once been a normal human, just like anyone else. But
           then something had happened, something that had turned him into the
@@ -75,7 +75,7 @@ export default function Showstory() {
           the heat emanating from his body.
         </h1>
         <br />
-        <h1 className="text-indigo-600 font-bold text-xl text-gray-800">
+        <h1 className="font-[Rancho] font-bold text-xl text-gray-800">
           "Who are you?" Red Devil growled. "I'm just someone who wants to help
           you," the girl replied. "Help me? I don't need your help." "But you
           do," the girl said. "I know that you weren't always like this.
@@ -85,7 +85,7 @@ export default function Showstory() {
           studying her. He had never felt anything like this before. It was as
           though her words were reaching through
         </h1>
-        <h1 className="text-indigo-600 font-bold text-xl"></h1>
+        <h1 className="font-[Rancho] font-bold text-xl"></h1>
       </div>
       <img src="/bright-bg.png" className="" alt="" />
     </div>
